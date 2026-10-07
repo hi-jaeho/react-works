@@ -3,6 +3,57 @@
 }
 
 .list{
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
+}
+
+.sign-up{
+  width: auto;
+  margin: 30px auto;
+}
+
+.sign-in{
+  width: auto;
+  margin: 30px auto;
+}
+
+.sign-up ul{
+  list-style: none;
+  padding-left: 100px;
+}
+
+.sign-in ul {
+  list-style: none;
+  padding-left: 100px;
+}
+
+.sign-up ul li{
+  margin: 16px;
+  text-align: left;
+}
+
+.sign-up ul li > label:first-child{
+  float: left; /* 라벨을 왼쪽으로 띄움 */
+  width: 80px;
+}
+
+.sign-up ul li:last-child{
+  text-align: center;
+}
+
+.sign-up ul li input[type="text"],
+.sign-up ul li select,
+.sign-up ul li textarea{
+  padding: 5px;
+  width: 200px;
+}
+
+.sign-up ul li textarea{
+  resize: none;
+}
+
+.sign-up ul li button{
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer; /* 버튼에 커서 올리면 손모양 */
 }
